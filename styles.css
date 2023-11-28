@@ -70,3 +70,17 @@ a:hover {
 #intro h2 {
   font-size: 4rem;
 }
+
+/* Contact styles */
+#contact {
+  background: var(--plum);
+}
+#contact .contact-container {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+#contact p:last-child {
+  margin-top: 3rem;
+}
