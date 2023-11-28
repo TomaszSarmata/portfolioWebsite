@@ -129,6 +129,19 @@ nav li {
   display: inline-block;
 }
 
+nav a.button {
+  width: 100px;
+  background: var(--magenta);
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+nav a.button:hover {
+  color: var(--white);
+  background: var(--hotmag);
+  transform: scale(1.05);
+}
+
 /* * {
   outline: red 1px solid;
 } */
