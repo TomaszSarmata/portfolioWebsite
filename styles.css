@@ -113,6 +113,10 @@ nav [class*="fa-"] {
   font-size: 150%;
   color: var(--aqua);
 }
+
+nav [class*="fa-"]:hover {
+  color: var(--magenta);
+}
 nav a {
   text-decoration: none;
   color: var(--white);
