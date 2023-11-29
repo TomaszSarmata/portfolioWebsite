@@ -51,7 +51,9 @@ a:hover {
 
 /* Intro styles */
 #intro {
-  padding: 10rem;
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 #intro p {
   font-size: 1rem;
@@ -81,8 +83,27 @@ a:hover {
   margin: 0 auto;
   padding: 3rem 0;
 }
+
+#contact a.button {
+  color: var(--white);
+  text-decoration: none;
+}
+
+#contact a.button:hover {
+  color: var(--white);
+  background: var(--hotmag);
+  transform: scale(1.1);
+}
+
 #contact p:last-child {
+  width: fit-content;
+  margin: 0 auto;
   margin-top: 3rem;
+}
+
+#contact p:last-child:hover {
+  transform: scale(1.1);
+  width: fit-content;
 }
 
 /* Navbar styles */
@@ -129,7 +150,7 @@ nav li {
   display: inline-block;
 }
 
-nav a.button {
+.button {
   width: 100px;
   background: var(--magenta);
   text-align: center;
