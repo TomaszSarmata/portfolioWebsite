@@ -87,12 +87,13 @@ a:hover {
 #contact a.button {
   color: var(--white);
   text-decoration: none;
+  font-family: var(--mono);
 }
 
 #contact a.button:hover {
   color: var(--white);
   background: var(--hotmag);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 #contact p:last-child {
@@ -102,7 +103,7 @@ a:hover {
 }
 
 #contact p:last-child:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   width: fit-content;
 }
 
@@ -175,7 +176,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3rem 0;
+  margin: 4rem 0;
   gap: 1rem;
   text-align: center;
 }
