@@ -142,17 +142,10 @@ nav a.button:hover {
   transform: scale(1.05);
 }
 
-@media (min-width: 850px) {
-  nav {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  nav li:first-child {
-    flex-basis: auto;
-    text-align: left;
-    margin-right: auto;
-  }
+nav li:first-child {
+  flex-basis: auto;
+  text-align: left;
+  margin-right: auto;
 }
 
 /* Footer styles */
@@ -161,8 +154,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem 0;
-  gap: 1.2rem;
+  margin: 3rem 0;
+  gap: 1rem;
   text-align: center;
 }
 
@@ -177,6 +170,18 @@ footer ul {
 
 footer [class*="fa-"] {
   font-size: 3rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Media queries */
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
 
 /* * {
