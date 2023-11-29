@@ -49,6 +49,16 @@ a:hover {
   text-decoration: none;
 }
 
+.gradient {
+  height: 1px;
+  background: rgb(255, 23, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 23, 228, 1) 0%,
+    rgba(134, 251, 251, 1) 100%
+  );
+}
+
 /* Intro styles */
 #intro {
   padding: 4rem 1rem 10rem 1rem;
