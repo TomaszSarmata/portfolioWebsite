@@ -278,6 +278,10 @@ footer p {
     gap: 1rem;
   }
 
+  #projects img.reversed {
+    grid-column: 6/11;
+    grid-row: 1/2;
+  }
   #projects img {
     grid-column: 1/6;
     grid-row: 1/2;
@@ -290,8 +294,17 @@ footer p {
     order: 2;
     text-align: right;
   }
+  .text-container.reversed {
+    grid-column: 1/7;
+    grid-row: 1/2;
+    margin-top: 2rem;
+    text-align: left;
+  }
   #projects ul {
     justify-content: end;
+  }
+  #projects ul.reversed {
+    justify-content: start;
   }
 }
 
