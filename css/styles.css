@@ -50,8 +50,8 @@ a:hover {
 }
 
 .gradient {
-  height: 1px;
-  background: rgb(255, 23, 228);
+  height: 2px;
+
   background: linear-gradient(
     90deg,
     rgba(255, 23, 228, 1) 0%,
@@ -207,6 +207,8 @@ footer [class*="fa-"] {
 footer p {
   margin: 0;
 }
+
+/* Project Section Styles */
 
 /* Media queries */
 @media (min-width: 850px) {
