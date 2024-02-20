@@ -63,7 +63,7 @@ img {
   width: 100%;
 }
 
-.pb-medium {
+.cta-text {
   padding-bottom: 20px;
   padding-left: 120px;
 }
@@ -328,8 +328,14 @@ footer p {
   }
 }
 
+@media (max-width: 986px) {
+  .cta-text {
+    padding-left: 0px;
+  }
+}
+
 /* Media queries */
-@media (min-width: 850px) {
+@media (min-width: 550px) {
   nav {
     max-width: 1200px;
     margin: 0 auto;
