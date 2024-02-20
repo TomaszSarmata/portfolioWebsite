@@ -232,8 +232,13 @@ footer p {
   font-size: 2.5rem;
   margin-bottom: calc(2.5rem * 1.5);
 }
-#projects h3 {
+#projects h3 a {
   color: var(--aqua);
+  text-decoration: none;
+}
+#projects h3 a:hover {
+  color: var(--aqua);
+  text-decoration: underline;
 }
 
 #projects h4 {
