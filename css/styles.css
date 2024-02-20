@@ -334,6 +334,15 @@ footer p {
   }
 }
 
+@media (max-width: 550px) {
+  .text-container-aboutme {
+    order: 2 !important;
+  }
+  .image-aboutme {
+    order: 1 !important;
+  }
+}
+
 /* Media queries */
 @media (min-width: 550px) {
   nav {
